@@ -1,0 +1,509 @@
+{
+    "@@locale": "en",
+    "dashboardTitle": "Dashboard",
+    "upcomingCoursesTitle": "Upcoming Courses",
+    "pendingTasksTitle": "Pending Tasks",
+    "todaysWeatherTitle": "Today's Weather",
+    "goodMorning": "Good Morning",
+    "goodAfternoon": "Good Afternoon",
+    "goodEvening": "Good Evening",
+    "myCoursesTitle": "My Courses",
+    "calendarTitle": "Calendar",
+    "myTasksTitle": "My Tasks",
+    "weeklyScheduleTitle": "Weekly Schedule",
+    "weatherSetCityPrompt": "Set your default city in settings to see weather.",
+    "weatherLoadError": "Failed to load weather for {cityName}: {error}",
+    "@weatherLoadError": {
+        "description": "Error message when weather fails to load",
+        "placeholders": {
+            "cityName": {
+                "type": "String",
+                "example": "London"
+            },
+            "error": {
+                "type": "String",
+                "example": "Network error"
+            }
+        }
+    },
+    "weatherDataNotAvailable": "Weather data not available.",
+    "noUpcomingCourses": "No upcoming courses in the next 2 days.",
+    "noPendingTasks": "No pending tasks for today or later.",
+    "showLess": "Show Less",
+    "showMore": "Show More",
+    "profileMenuProfile": "My Profile",
+    "profileMenuSettings": "Settings",
+    "profileMenuLogout": "Logout",
+    "logoutConfirmTitle": "Confirm Logout",
+    "logoutConfirmContent": "Are you sure you want to logout?",
+    "cancelAction": "Cancel",
+    "logoutAction": "Logout",
+    "languageSettingTitle": "Language",
+    "themeSettingTitle": "Theme",
+    "activeTasksTab": "Active",
+    "completedTasksTab": "Completed",
+
+    "editTaskTitle": "Edit Task",
+    "addTaskTitle": "Add New Task",
+    "taskNameLabel": "Task Name",
+    "taskNameHint": "Enter the name of your task",
+    "taskNameValidationEmpty": "Please enter the task name.",
+    "taskNameValidationLength": "Task name cannot exceed 100 characters.",
+    "taskDescriptionLabel": "Description (Optional)",
+    "taskDescriptionHint": "Add more details about the task",
+    "taskCategoryLabel": "Category *",
+    "taskCategoryValidationEmpty": "Please select a category.",
+    "selectDueDateLabel": "Select Due Date *",
+    "dueDatePrefix": "Due: ",
+    "reminderTimePrefix": "Reminder Time: ",
+    "reminderTimeNotSet": "Not Set",
+    "clearReminderTooltip": "Clear Reminder",
+    "updateTaskButton": "Update Task",
+    "addTaskButton": "Add Task",
+    "selectDueDateError": "Please select a due date.",
+    "reminderBeforeDueError": "Reminder time must be before the due date.",
+    "mustBeLoggedInError": "You must be logged in to save tasks.",
+    "profileNotLoadedError": "User profile not loaded. Cannot save task reminders.",
+    "taskAddedSuccess": "Task added successfully!",
+    "taskUpdatedSuccess": "Task updated successfully!",
+    "taskSaveFailed": "Failed to save task: {error}",
+    "@taskSaveFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "confirmDeleteTitle": "Confirm Delete",
+    "confirmDeleteContent": "Are you sure you want to delete this task?",
+    "deleteAction": "Delete",
+    "taskDeletedSuccess": "Task deleted successfully!",
+    "taskDeleteFailed": "Failed to delete task: {error}",
+    "@taskDeleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "timePickerOkText": "OK",
+    "timePickerCancelText": "Cancel",
+    "taskCategoryAssignment": "Assignment",
+    "taskCategoryExam": "Exam",
+    "taskCategoryReminder": "Reminder",
+    "taskCategoryOther": "Other",
+    "taskDeleteConfirmContent": "Are you sure you want to delete this task?",
+    "taskDeleteFailed": "Failed to delete task: {error}",
+
+    "loginTitle": "Login",
+    "emailLabel": "Email",
+    "emailHint": "Enter your email",
+    "emailValidationEmpty": "Please enter your email",
+    "emailValidationInvalid": "Please enter a valid email",
+    "passwordLabel": "Password",
+    "passwordHint": "Enter your password",
+    "passwordValidationEmpty": "Please enter your password",
+    "passwordValidationLength": "Password must be at least 6 characters",
+    "loginButton": "Login",
+    "loginWithGoogleButton": "Login with Google",
+    "noAccountPrompt": "Don't have an account? ",
+    "registerButton": "Register",
+    "loginFailed": "Login failed: {error}",
+    "@loginFailed": {
+        "description": "Error message shown when login fails.",
+        "placeholders": {
+            "error": {
+                "type": "String",
+                "example": "Invalid credentials"
+            }
+        }
+    },
+    "loginCancelled": "Login cancelled by user.",
+    "googleSignInError": "An unknown error occurred during Google sign-in.",
+
+    "registerTitle": "Register",
+    "registrationSuccessful": "Registration Successful! Please login.",
+    "registrationErrorDefault": "An error occurred during registration.",
+    "registrationErrorWeakPassword": "The password provided is too weak.",
+    "registrationErrorEmailInUse": "The account already exists for that email.",
+    "registrationErrorFirebase": "Registration failed: {error}",
+    "@registrationErrorFirebase": {
+        "description": "Error message shown when Firebase registration fails.",
+        "placeholders": {
+            "error": {
+                "type": "String",
+                "example": "Network request failed"
+            }
+        }
+    },
+    "registrationErrorUnexpected": "An unexpected error occurred. Please try again.",
+    "createAccountPrompt": "Create a new account to start organizing your campus life!",
+    "registerEmailValidationEmpty": "Please enter your email",
+    "registerEmailValidationInvalid": "Please enter a valid email address",
+    "registerPasswordValidationEmpty": "Please enter your password",
+    "registerPasswordValidationLength": "Password must be at least 6 characters long",
+    "registerButtonRegister": "Register",
+    "alreadyHaveAccountPrompt": "Already have an account? ",
+    "loginButtonFromRegister": "Login",
+
+    "loginWelcomeBack": "Welcome Back!",
+    "loginManageSchedule": "Login to manage your campus schedule.",
+    "loginRememberMe": "Remember Me",
+    "loginForgotPassword": "Forgot Password?",
+    "loginOrSeparator": "OR",
+    "loginLoggingIn": "Logging In...",
+    "loginSigningInGoogle": "Signing In...",
+    "loginErrorUserNotFound": "No user found for that email.",
+    "loginErrorWrongPassword": "Wrong password provided for that user.",
+    "loginErrorInvalidCredentials": "Invalid credentials. Please check your email and password.",
+    "loginErrorGeneric": "An error occurred during login.",
+    "loginErrorUnexpected": "An unexpected error occurred. Please try again.",
+    "googleSignInErrorGeneric": "An error occurred with Google Sign-In.",
+    "googleSignInErrorUnexpected": "An unexpected Google Sign-In error occurred.",
+    "googleSignInProfileError": "Could not save profile details, but login successful.",
+
+    "forgotPasswordTitle": "Reset Password",
+    "forgotPasswordSuccessMessage": "Password reset email sent. Please check your inbox.",
+    "forgotPasswordErrorFailedToSend": "Failed to send password reset email.",
+    "forgotPasswordErrorUserNotFound": "No user found for that email.",
+    "forgotPasswordErrorFirebase": "Failed to send password reset email: {error}",
+    "@forgotPasswordErrorFirebase": {
+        "description": "Error message shown when Firebase password reset email fails.",
+        "placeholders": {
+            "error": {
+                "type": "String",
+                "example": "Network request failed"
+            }
+        }
+    },
+    "forgotPasswordErrorUnexpected": "An unexpected error occurred. Please try again.",
+    "forgotPasswordInstruction": "Enter your email address and we will send you a link to reset your password.",
+    "forgotPasswordSendLinkButton": "Send Reset Link",
+
+    "scheduleDialogTitleFormat": "{dayName}, {date}",
+    "@scheduleDialogTitleFormat": {
+        "description": "Format for the title in the daily schedule dialog showing courses.",
+        "placeholders": {
+            "dayName": {
+                "type": "String",
+                "example": "Wed"
+            },
+            "date": {
+                "type": "String",
+                "example": "14 May"
+            }
+        }
+    },
+    "scheduleNoCourses": "No courses scheduled for this day.",
+    "scheduleCloseButton": "Close",
+    "scheduleMoreCoursesIndicator": "+{count} more",
+    "@scheduleMoreCoursesIndicator": {
+        "description": "Indicator showing how many more courses exist for a day beyond the first two shown.",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "scheduleLoadingErrorTitle": "Error Loading Schedule",
+    "scheduleLoadingErrorRetryButton": "Retry",
+
+    "addCourseTitle": "Add Course",
+    "editCourseTitle": "Edit Course",
+    "deleteCourseTooltip": "Delete Course",
+    "saveCourseTooltip": "Save Course",
+    "courseNameLabel": "Course Name",
+    "courseNameValidationEmpty": "Please enter the course name",
+    "courseTimeLabel": "Time",
+    "courseTimeHint": "HH:mm (e.g., 14:30)",
+    "courseLocationLabel": "Location (Optional)",
+    "courseLocationHint": "Tap to set location",
+    "courseClassroomLabel": "Classroom (Optional)",
+    "courseInstructorLabel": "Instructor (Optional)",
+    "courseDayOfWeekLabel": "Day of the Week",
+    "courseDayOfWeekHint": "Select Day",
+    "courseDayOfWeekValidationEmpty": "Please select a day",
+    "courseStartTimeLabel": "Start Time",
+    "courseEndTimeLabel": "End Time",
+    "courseSelectTimeHint": "Select Time",
+    "courseErrorTimesMissing": "Please select day, start and end times.",
+    "courseErrorEndTimeBeforeStart": "End time must be after start time.",
+    "courseErrorProfileLoad": "User profile not loaded. Cannot save course reminders.",
+    "courseSaveSuccess": "Course saved successfully.",
+    "courseSaveFailed": "Failed to save course: {error}",
+    "@courseSaveFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "courseDeleteConfirmTitle": "Confirm Delete",
+    "courseDeleteConfirmContent": "Are you sure you want to delete this course? This will also cancel any scheduled reminders.",
+    "courseDeleteConfirmButton": "Delete",
+    "courseDeleteSuccess": "Course deleted successfully.",
+    "courseDeleteFailed": "Failed to delete course: {error}",
+    "@courseDeleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "courseLocationDialogTitle": "Set Location",
+    "courseLocationDialogHint": "Search for a city or location...",
+    "courseLocationDialogSaveButton": "Save",
+    "dayMonday": "Monday",
+    "dayTuesday": "Tuesday",
+    "dayWednesday": "Wednesday",
+    "dayThursday": "Thursday",
+    "dayFriday": "Friday",
+    "daySaturday": "Saturday",
+    "daySunday": "Sunday",
+
+    "profileTitle": "My Profile",
+    "profileLoadError": "Failed to load profile: {error}",
+    "@profileLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "profileNotLoggedIn": "User not logged in.",
+    "profileDepartmentLabel": "Department: {department}",
+    "@profileDepartmentLabel": {
+        "placeholders": {
+            "department": {
+                "type": "String"
+            }
+        }
+    },
+    "profileStudentIdLabel": "Student ID: {studentId}",
+    "@profileStudentIdLabel": {
+        "placeholders": {
+            "studentId": {
+                "type": "String"
+            }
+        }
+    },
+    "profileEditButton": "Edit Profile",
+
+    "editProfileTitle": "Edit Profile",
+    "editProfileSaveTooltip": "Save Profile",
+    "editProfileLoadErrorTitle": "Failed to load profile",
+    "editProfileSuccessTitle": "Success",
+    "editProfileEmailUpdateRequiresRelogin": "Please log out and log back in before changing your email.",
+    "editProfileEmailUpdateFailed": "Failed to update email",
+    "editProfileUpdateSuccess": "Profile updated successfully!",
+    "editProfileUpdateFailedTitle": "Update Failed",
+    "editProfileSectionProfileInfo": "Profile Information",
+    "editProfileSectionContactInfo": "Contact Information",
+    "editProfileSectionPersonalInfo": "Personal Details",
+    "editProfileImageSourceDialogTitle": "Select Image Source",
+    "editProfileImageSourceCamera": "Camera",
+    "editProfileImageSourceGallery": "Gallery",
+    "editProfileImageSelectedSuccess": "Profile picture selected. Save profile to keep changes.",
+    "editProfileImagePathSaveErrorTitle": "Error Saving Path",
+    "editProfileImagePathSaveErrorContent": "Could not save image path locally: {error}",
+    "@editProfileImagePathSaveErrorContent": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "editProfileUnsavedChangesTitle": "Unsaved Changes",
+    "editProfileUnsavedChangesContent": "Do you want to save your changes before leaving?",
+    "editProfileDiscardButton": "Discard",
+    "editProfileSaveButton": "Save",
+    "editProfileDisplayNameLabel": "Display Name",
+    "editProfileDisplayNameValidation": "Please enter your name",
+    "editProfileDepartmentLabel": "Department",
+    "editProfileStudentIdLabel": "Student ID",
+    "editProfilePhoneNumberLabel": "Phone Number",
+    "editProfilePhoneNumberValidation": "Invalid phone number (e.g., +1234567890)",
+    "editProfileBioLabel": "Bio",
+    "editProfileBioHint": "Enter a short bio...",
+    "editProfileBirthDateLabel": "Birth Date",
+    "editProfileBirthDateHint": "Select Date",
+    "editProfileCompletionTitle": "Profile Completion",
+
+    "settingsTitle": "Settings",
+    "settingsProfileNotAvailable": "User profile cannot be saved.",
+    "settingsSaveSuccess": "Settings saved successfully!",
+    "settingsSaveError": "Error saving settings: {error}",
+    "@settingsSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsCitySuggestionError": "Error fetching city suggestions: {statusCode}",
+    "@settingsCitySuggestionError": {
+        "placeholders": {
+            "statusCode": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsCitySuggestionNetworkError": "Network error fetching city suggestions: {error}",
+    "@settingsCitySuggestionNetworkError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsSectionProfile": "Profile Settings",
+    "settingsSectionNotifications": "Notification Settings",
+    "settingsSectionDevice": "Device Settings",
+    "settingsSectionDeleteAccount": "Delete Account",
+    "settingsChangePasswordTile": "Change Password",
+    "settingsSetCityDialogTitle": "Set Default City",
+    "settingsSetCityDialogHint": "Search for a city...",
+    "settingsDefaultCityTile": "Default City for Weather",
+    "settingsDefaultCityHint": "Tap to set city",
+    "settingsCourseRemindersSwitch": "Course Reminders",
+    "settingsTaskRemindersSwitch": "Task Reminders",
+    "settingsLeadTimeLabel": "Course Reminder Lead Time (minutes)",
+    "settingsLeadTimeValidationEmpty": "Please enter a lead time",
+    "settingsLeadTimeValidationNumber": "Please enter a valid number",
+    "settingsLeadTimeValidationNegative": "Lead time cannot be negative",
+    "settingsDeviceNotificationsTile": "Device Notification Settings",
+    "settingsDeleteAccountConfirmTitle": "Confirm Account Deletion",
+    "settingsDeleteAccountConfirmContent": "Are you sure you want to permanently delete your account? This action cannot be undone.",
+    "settingsDeleteAccountButton": "Delete Account",
+    "settingsDeletingAccountSnackbar": "Deleting Account...",
+    "settingsDeleteAccountSuccessSnackbar": "Account deleted successfully.",
+    "settingsDeleteAccountErrorSnackbar": "Failed to delete account: {error}",
+    "@settingsDeleteAccountErrorSnackbar": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsDeleteAccountErrorDialogTitle": "Account Deletion Error",
+    "settingsReauthRequiredDialogTitle": "Re-authentication Required",
+    "settingsReauthPasswordPrompt": "Please enter your current password to delete your account.",
+    "settingsReauthCurrentPasswordLabel": "Current Password",
+    "settingsReauthPasswordValidationEmpty": "Please enter your current password",
+    "settingsReauthIncorrectPassword": "Incorrect password.",
+    "settingsReauthVerifyButton": "Verify",
+    "settingsChangePasswordDialogTitle": "Change Password",
+    "settingsChangePasswordNewLabel": "New Password",
+    "settingsChangePasswordNewValidationEmpty": "Please enter a new password",
+    "settingsChangePasswordConfirmLabel": "Confirm New Password",
+    "settingsChangePasswordConfirmValidationEmpty": "Please confirm your password",
+    "settingsChangePasswordConfirmValidationMismatch": "Passwords do not match",
+    "settingsChangePasswordUpdateButton": "Update Password",
+    "settingsChangePasswordSuccessSnackbar": "Password updated successfully!",
+    "settingsChangePasswordFailedDialogTitle": "Password Change Failed",
+    "settingsErrorDialogTitle": "Error",
+    "settingsSessionExpiredError": "User session expired. Please log in again.",
+
+    "fiveDayForecastTitle": "5-Day Forecast for {city}",
+    "@fiveDayForecastTitle": {
+        "placeholders": {
+            "city": {
+                "type": "String"
+            }
+        }
+    },
+    "fiveDayForecastLoadError": "Failed to load 5-day forecast: {error}",
+    "@fiveDayForecastLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "fiveDayForecastNoData": "No forecast data available for the selected times ({times}).",
+    "@fiveDayForecastNoData": {
+        "description": "Message shown when no forecast data is available for the filtered hours.",
+        "placeholders": {
+            "times": {
+                "type": "String",
+                "example": "9, 12, 15, 18, 21"
+            }
+        }
+    },
+    "fiveDayForecastDayDividerFormat": "EEEE, MMM d",
+    "@fiveDayForecastDayDividerFormat": {
+        "description": "Date format for the divider between days in the 5-day forecast (e.g., Monday, May 20)."
+    },
+
+    "editProfileEmailManagedByGoogle": "Email managed by Google",
+    "editProfileCompletionIndicatorLabel": "Profile Completion: {percentage}%",
+    "@editProfileCompletionIndicatorLabel": {
+        "placeholders": {
+            "percentage": {
+                "type": "String"
+            }
+        }
+    },
+
+    "calendarUserNotLoggedIn": "User not logged in.",
+    "calendarDataLoadError": "Failed to load {sourceType} data: {error}",
+    "@calendarDataLoadError": {
+        "placeholders": {
+            "sourceType": {
+                "type": "String",
+                "example": "courses"
+            },
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "taskStatusCompleted": "Completed",
+    "taskStatusPending": "Pending",
+
+    "weatherConditionClear": "Clear",
+    "weatherConditionClouds": "Clouds",
+    "weatherConditionRain": "Rain",
+    "weatherConditionDrizzle": "Drizzle",
+    "weatherConditionThunderstorm": "Thunderstorm",
+    "weatherConditionSnow": "Snow",
+    "weatherConditionMist": "Mist",
+    "weatherConditionFog": "Fog",
+    "weatherConditionUnknown": "Unknown",
+
+    "displayNameLabel": "Full Name",
+    "displayNameValidationEmpty": "Please enter your full name",
+
+    "deleteCourseDialogTitle": "Delete Course",
+    "deleteCourseDialogContent": "Are you sure you want to delete this course? This action cannot be undone.",
+
+    "courseNotificationUpcomingTitle": "Upcoming Course: {courseName}",
+    "@courseNotificationUpcomingTitle": {
+        "description": "Title for an upcoming course notification",
+        "placeholders": {
+            "courseName": {
+                "type": "String",
+                "example": "Calculus 101"
+            }
+        }
+    },
+    "courseNotificationUpcomingBody": "{courseName} at {courseTime} in {courseLocation}",
+    "@courseNotificationUpcomingBody": {
+        "description": "Body for an upcoming course notification",
+        "placeholders": {
+            "courseName": {
+                "type": "String",
+                "example": "Calculus 101"
+            },
+            "courseTime": {
+                "type": "String",
+                "example": "10:00 AM"
+            },
+            "courseLocation": {
+                "type": "String",
+                "example": "Room 101"
+            }
+        }
+    }
+} 

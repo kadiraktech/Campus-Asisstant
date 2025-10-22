@@ -1,0 +1,509 @@
+{
+    "@@locale": "tr",
+    "dashboardTitle": "Kontrol Paneli",
+    "upcomingCoursesTitle": "Yaklaşan Dersler",
+    "pendingTasksTitle": "Bekleyen Görevler",
+    "todaysWeatherTitle": "Bugünün Hava Durumu",
+    "goodMorning": "Günaydın",
+    "goodAfternoon": "Tünaydın",
+    "goodEvening": "İyi Akşamlar",
+    "myCoursesTitle": "Derslerim",
+    "calendarTitle": "Takvim",
+    "myTasksTitle": "Görevlerim",
+    "weeklyScheduleTitle": "Haftalık Program",
+    "weatherSetCityPrompt": "Hava durumunu görmek için ayarlardan varsayılan şehrinizi ayarlayın.",
+    "weatherLoadError": "{cityName} için hava durumu yüklenemedi: {error}",
+    "@weatherLoadError": {
+        "description": "Hava durumu yüklenemediğinde gösterilen hata mesajı",
+        "placeholders": {
+            "cityName": {
+                "type": "String",
+                "example": "Londra"
+            },
+            "error": {
+                "type": "String",
+                "example": "Ağ hatası"
+            }
+        }
+    },
+    "weatherDataNotAvailable": "Hava durumu verisi mevcut değil.",
+    "noUpcomingCourses": "Önümüzdeki 2 gün içinde yaklaşan ders yok.",
+    "noPendingTasks": "Bugün veya sonrası için bekleyen görev yok.",
+    "showLess": "Daha Az Göster",
+    "showMore": "Daha Fazla Göster",
+    "profileMenuProfile": "Profilim",
+    "profileMenuSettings": "Ayarlar",
+    "profileMenuLogout": "Çıkış Yap",
+    "logoutConfirmTitle": "Çıkışı Onayla",
+    "logoutConfirmContent": "Çıkış yapmak istediğinizden emin misiniz?",
+    "cancelAction": "İptal",
+    "logoutAction": "Çıkış Yap",
+    "languageSettingTitle": "Dil",
+    "themeSettingTitle": "Tema",
+    "activeTasksTab": "Aktif",
+    "completedTasksTab": "Tamamlandı",
+
+    "editTaskTitle": "Görevi Düzenle",
+    "addTaskTitle": "Yeni Görev Ekle",
+    "taskNameLabel": "Görev Adı",
+    "taskNameHint": "Görevinizin adını girin",
+    "taskNameValidationEmpty": "Lütfen görev adını girin.",
+    "taskNameValidationLength": "Görev adı 100 karakteri geçemez.",
+    "taskDescriptionLabel": "Açıklama (İsteğe Bağlı)",
+    "taskDescriptionHint": "Görev hakkında daha fazla detay ekleyin",
+    "taskCategoryLabel": "Kategori *",
+    "taskCategoryValidationEmpty": "Lütfen bir kategori seçin.",
+    "selectDueDateLabel": "Bitiş Tarihi Seç *",
+    "dueDatePrefix": "Bitiş: ",
+    "reminderTimePrefix": "Hatırlatma Zamanı: ",
+    "reminderTimeNotSet": "Ayarlanmadı",
+    "clearReminderTooltip": "Hatırlatıcıyı Temizle",
+    "updateTaskButton": "Görevi Güncelle",
+    "addTaskButton": "Görev Ekle",
+    "selectDueDateError": "Lütfen bir bitiş tarihi seçin.",
+    "reminderBeforeDueError": "Hatırlatma zamanı bitiş tarihinden önce olmalıdır.",
+    "mustBeLoggedInError": "Görevleri kaydetmek için giriş yapmış olmalısınız.",
+    "profileNotLoadedError": "Kullanıcı profili yüklenemedi. Görev hatırlatıcıları kaydedilemiyor.",
+    "taskAddedSuccess": "Görev başarıyla eklendi!",
+    "taskUpdatedSuccess": "Görev başarıyla güncellendi!",
+    "taskSaveFailed": "Görev kaydedilemedi: {error}",
+    "@taskSaveFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "confirmDeleteTitle": "Silmeyi Onayla",
+    "confirmDeleteContent": "Bu görevi silmek istediğinizden emin misiniz?",
+    "deleteAction": "Sil",
+    "taskDeletedSuccess": "Görev başarıyla silindi!",
+    "taskDeleteFailed": "Görev silinemedi: {error}",
+    "@taskDeleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "timePickerOkText": "Tamam",
+    "timePickerCancelText": "İptal",
+    "taskCategoryAssignment": "Ödev",
+    "taskCategoryExam": "Sınav",
+    "taskCategoryReminder": "Hatırlatma",
+    "taskCategoryOther": "Diğer",
+    "taskDeleteConfirmContent": "Bu görevi silmek istediğinizden emin misiniz?",
+
+    "loginTitle": "Giriş Yap",
+    "emailLabel": "E-posta",
+    "emailHint": "E-postanızı girin",
+    "emailValidationEmpty": "Lütfen e-postanızı girin",
+    "emailValidationInvalid": "Lütfen geçerli bir e-posta girin",
+    "passwordLabel": "Şifre",
+    "passwordHint": "Şifrenizi girin",
+    "passwordValidationEmpty": "Lütfen şifrenizi girin",
+    "passwordValidationLength": "Şifre en az 6 karakter olmalıdır",
+    "loginButton": "Giriş Yap",
+    "loginWithGoogleButton": "Google ile Giriş Yap",
+    "noAccountPrompt": "Hesabınız yok mu? ",
+    "registerButton": "Kayıt Ol",
+    "loginFailed": "Giriş başarısız: {error}",
+    "@loginFailed": {
+        "description": "Giriş başarısız olduğunda gösterilen hata mesajı.",
+        "placeholders": {
+            "error": {
+                "type": "String",
+                "example": "Geçersiz kimlik bilgileri"
+            }
+        }
+    },
+    "loginCancelled": "Giriş kullanıcı tarafından iptal edildi.",
+    "googleSignInError": "Google ile giriş sırasında bilinmeyen bir hata oluştu.",
+
+    "registerTitle": "Kayıt Ol",
+    "registrationSuccessful": "Kayıt Başarılı! Lütfen giriş yapın.",
+    "registrationErrorDefault": "Kayıt sırasında bir hata oluştu.",
+    "registrationErrorWeakPassword": "Sağlanan şifre çok zayıf.",
+    "registrationErrorEmailInUse": "Bu e-posta için zaten bir hesap mevcut.",
+    "registrationErrorFirebase": "Kayıt başarısız: {error}",
+    "@registrationErrorFirebase": {
+        "description": "Firebase kaydı başarısız olduğunda gösterilen hata mesajı.",
+        "placeholders": {
+            "error": {
+                "type": "String",
+                "example": "Ağ isteği başarısız"
+            }
+        }
+    },
+    "registrationErrorUnexpected": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+    "createAccountPrompt": "Kampüs hayatınızı organize etmeye başlamak için yeni bir hesap oluşturun!",
+    "registerEmailValidationEmpty": "Lütfen e-postanızı girin",
+    "registerEmailValidationInvalid": "Lütfen geçerli bir e-posta adresi girin",
+    "registerPasswordValidationEmpty": "Lütfen şifrenizi girin",
+    "registerPasswordValidationLength": "Şifre en az 6 karakter uzunluğunda olmalıdır",
+    "registerButtonRegister": "Kayıt Ol",
+    "alreadyHaveAccountPrompt": "Zaten bir hesabınız var mı? ",
+    "loginButtonFromRegister": "Giriş Yap",
+
+    "loginWelcomeBack": "Tekrar Hoş Geldiniz!",
+    "loginManageSchedule": "Kampüs programınızı yönetmek için giriş yapın.",
+    "loginRememberMe": "Beni Hatırla",
+    "loginForgotPassword": "Şifremi Unuttum?",
+    "loginOrSeparator": "VEYA",
+    "loginLoggingIn": "Giriş Yapılıyor...",
+    "loginSigningInGoogle": "Giriş Yapılıyor...",
+    "loginErrorUserNotFound": "Bu e-posta için kullanıcı bulunamadı.",
+    "loginErrorWrongPassword": "Bu kullanıcı için yanlış şifre.",
+    "loginErrorInvalidCredentials": "Geçersiz kimlik bilgileri. Lütfen e-posta ve şifrenizi kontrol edin.",
+    "loginErrorGeneric": "Giriş sırasında bir hata oluştu.",
+    "loginErrorUnexpected": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+    "googleSignInErrorGeneric": "Google ile Giriş sırasında bir hata oluştu.",
+    "googleSignInErrorUnexpected": "Beklenmeyen bir Google ile Giriş hatası oluştu.",
+    "googleSignInProfileError": "Profil detayları kaydedilemedi, ancak giriş başarılı.",
+
+    "forgotPasswordTitle": "Şifreyi Sıfırla",
+    "forgotPasswordSuccessMessage": "Şifre sıfırlama e-postası gönderildi. Lütfen gelen kutunuzu kontrol edin.",
+    "forgotPasswordErrorFailedToSend": "Şifre sıfırlama e-postası gönderilemedi.",
+    "forgotPasswordErrorUserNotFound": "Bu e-posta için kullanıcı bulunamadı.",
+    "forgotPasswordErrorFirebase": "Şifre sıfırlama e-postası gönderilemedi: {error}",
+    "@forgotPasswordErrorFirebase": {
+        "description": "Firebase şifre sıfırlama e-postası başarısız olduğunda gösterilen hata mesajı.",
+        "placeholders": {
+            "error": {
+                "type": "String",
+                "example": "Ağ isteği başarısız"
+            }
+        }
+    },
+    "forgotPasswordErrorUnexpected": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+    "forgotPasswordInstruction": "E-posta adresinizi girin, şifrenizi sıfırlamanız için size bir bağlantı göndereceğiz.",
+    "forgotPasswordSendLinkButton": "Sıfırlama Bağlantısı Gönder",
+
+    "scheduleDialogTitleFormat": "{dayName}, {date}",
+    "@scheduleDialogTitleFormat": {
+        "description": "Dersleri gösteren günlük program iletişim kutusundaki başlığın formatı.",
+        "placeholders": {
+            "dayName": {
+                "type": "String",
+                "example": "Çar"
+            },
+            "date": {
+                "type": "String",
+                "example": "14 May"
+            }
+        }
+    },
+    "scheduleNoCourses": "Bugün için planlanmış ders yok.",
+    "scheduleCloseButton": "Kapat",
+    "scheduleMoreCoursesIndicator": "+{count} tane daha",
+    "@scheduleMoreCoursesIndicator": {
+        "description": "Bir gün için ilk ikiden sonra kaç dersin daha olduğunu gösteren gösterge.",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "3"
+            }
+        }
+    },
+    "scheduleLoadingErrorTitle": "Program Yüklenirken Hata Oluştu",
+    "scheduleLoadingErrorRetryButton": "Tekrar Dene",
+
+    "addCourseTitle": "Ders Ekle",
+    "editCourseTitle": "Dersi Düzenle",
+    "deleteCourseTooltip": "Dersi Sil",
+    "saveCourseTooltip": "Dersi Kaydet",
+    "courseNameLabel": "Ders Adı",
+    "courseNameValidationEmpty": "Lütfen ders adını girin",
+    "courseLocationLabel": "Konum (İsteğe Bağlı)",
+    "courseLocationHint": "Konumu ayarlamak için dokunun",
+    "courseClassroomLabel": "Sınıf (İsteğe Bağlı)",
+    "courseInstructorLabel": "Öğretim Görevlisi (İsteğe Bağlı)",
+    "courseDayOfWeekLabel": "Haftanın Günü",
+    "courseDayOfWeekHint": "Gün Seçin",
+    "courseDayOfWeekValidationEmpty": "Lütfen bir gün seçin",
+    "courseStartTimeLabel": "Başlangıç Saati",
+    "courseEndTimeLabel": "Bitiş Saati",
+    "courseSelectTimeHint": "Saat Seçin",
+    "courseErrorTimesMissing": "Lütfen gün, başlangıç ve bitiş saatlerini seçin.",
+    "courseErrorEndTimeBeforeStart": "Bitiş saati başlangıç saatinden sonra olmalıdır.",
+    "courseErrorProfileLoad": "Kullanıcı profili yüklenemedi. Ders hatırlatıcıları kaydedilemiyor.",
+    "courseSaveSuccess": "Ders başarıyla kaydedildi.",
+    "courseSaveFailed": "Ders kaydedilemedi: {error}",
+    "@courseSaveFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "courseDeleteConfirmTitle": "Silmeyi Onayla",
+    "courseDeleteConfirmContent": "Bu dersi silmek istediğinizden emin misiniz? Bu işlem aynı zamanda planlanmış hatırlatıcıları da iptal edecektir.",
+    "courseDeleteConfirmButton": "Sil",
+    "courseDeleteSuccess": "Ders başarıyla silindi.",
+    "courseDeleteFailed": "Ders silinemedi: {error}",
+    "@courseDeleteFailed": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "courseLocationDialogTitle": "Konum Ayarla",
+    "courseLocationDialogHint": "Bir şehir veya konum arayın...",
+    "courseLocationDialogSaveButton": "Kaydet",
+    "dayMonday": "Pazartesi",
+    "dayTuesday": "Salı",
+    "dayWednesday": "Çarşamba",
+    "dayThursday": "Perşembe",
+    "dayFriday": "Cuma",
+    "daySaturday": "Cumartesi",
+    "daySunday": "Pazar",
+
+    "profileTitle": "Profilim",
+    "profileLoadError": "Profil yüklenemedi: {error}",
+    "@profileLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "profileNotLoggedIn": "Kullanıcı giriş yapmadı.",
+    "profileDepartmentLabel": "Bölüm: {department}",
+    "@profileDepartmentLabel": {
+        "placeholders": {
+            "department": {
+                "type": "String"
+            }
+        }
+    },
+    "profileStudentIdLabel": "Öğrenci No: {studentId}",
+    "@profileStudentIdLabel": {
+        "placeholders": {
+            "studentId": {
+                "type": "String"
+            }
+        }
+    },
+    "profileEditButton": "Profili Düzenle",
+
+    "editProfileTitle": "Profili Düzenle",
+    "editProfileSaveTooltip": "Profili Kaydet",
+    "editProfileLoadErrorTitle": "Profil yüklenemedi",
+    "editProfileSuccessTitle": "Başarılı",
+    "editProfileEmailUpdateRequiresRelogin": "E-postanızı değiştirmeden önce lütfen çıkış yapıp tekrar giriş yapın.",
+    "editProfileEmailUpdateFailed": "E-posta güncellenemedi",
+    "editProfileUpdateSuccess": "Profil başarıyla güncellendi!",
+    "editProfileUpdateFailedTitle": "Güncelleme Başarısız",
+    "editProfileSectionProfileInfo": "Profil Bilgileri",
+    "editProfileSectionContactInfo": "İletişim Bilgileri",
+    "editProfileSectionPersonalInfo": "Kişisel Detaylar",
+    "editProfileImageSourceDialogTitle": "Resim Kaynağı Seç",
+    "editProfileImageSourceCamera": "Kamera",
+    "editProfileImageSourceGallery": "Galeri",
+    "editProfileImageSelectedSuccess": "Profil resmi seçildi. Değişiklikleri korumak için profili kaydedin.",
+    "editProfileImagePathSaveErrorTitle": "Yol Kaydedilirken Hata",
+    "editProfileImagePathSaveErrorContent": "Resim yolu yerel olarak kaydedilemedi: {error}",
+    "@editProfileImagePathSaveErrorContent": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "editProfileUnsavedChangesTitle": "Kaydedilmemiş Değişiklikler",
+    "editProfileUnsavedChangesContent": "Ayrılmadan önce değişikliklerinizi kaydetmek istiyor musunuz?",
+    "editProfileDiscardButton": "Vazgeç",
+    "editProfileSaveButton": "Kaydet",
+    "editProfileDisplayNameLabel": "Görünen Ad",
+    "editProfileDisplayNameValidation": "Lütfen adınızı girin",
+    "editProfileDepartmentLabel": "Bölüm",
+    "editProfileStudentIdLabel": "Öğrenci No",
+    "editProfilePhoneNumberLabel": "Telefon Numarası",
+    "editProfilePhoneNumberValidation": "Geçersiz telefon numarası (örn. +905xxxxxxxxx)",
+    "editProfileBioLabel": "Biyografi",
+    "editProfileBioHint": "Kısa bir biyografi girin...",
+    "editProfileBirthDateLabel": "Doğum Tarihi",
+    "editProfileBirthDateHint": "Tarih Seçin",
+    "editProfileCompletionTitle": "Profil Tamamlama",
+
+    "settingsTitle": "Ayarlar",
+    "settingsProfileNotAvailable": "Kullanıcı profili kaydedilemiyor.",
+    "settingsSaveSuccess": "Ayarlar başarıyla kaydedildi!",
+    "settingsSaveError": "Ayarlar kaydedilirken hata oluştu: {error}",
+    "@settingsSaveError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsCitySuggestionError": "Şehir önerileri alınırken hata oluştu: {statusCode}",
+    "@settingsCitySuggestionError": {
+        "placeholders": {
+            "statusCode": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsCitySuggestionNetworkError": "Şehir önerileri alınırken ağ hatası: {error}",
+    "@settingsCitySuggestionNetworkError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsSectionProfile": "Profil Ayarları",
+    "settingsSectionNotifications": "Bildirim Ayarları",
+    "settingsSectionDevice": "Cihaz Ayarları",
+    "settingsSectionDeleteAccount": "Hesabı Sil",
+    "settingsChangePasswordTile": "Şifre Değiştir",
+    "settingsSetCityDialogTitle": "Varsayılan Şehri Ayarla",
+    "settingsSetCityDialogHint": "Bir şehir arayın...",
+    "settingsDefaultCityTile": "Hava Durumu için Varsayılan Şehir",
+    "settingsDefaultCityHint": "Şehir ayarlamak için dokunun",
+    "settingsCourseRemindersSwitch": "Ders Hatırlatıcıları",
+    "settingsTaskRemindersSwitch": "Görev Hatırlatıcıları",
+    "settingsLeadTimeLabel": "Ders Hatırlatma Süresi (dakika)",
+    "settingsLeadTimeValidationEmpty": "Lütfen bir hatırlatma süresi girin",
+    "settingsLeadTimeValidationNumber": "Lütfen geçerli bir sayı girin",
+    "settingsLeadTimeValidationNegative": "Hatırlatma süresi negatif olamaz",
+    "settingsDeviceNotificationsTile": "Bildirim Ayarları",
+    "settingsDeleteAccountConfirmTitle": "Hesap Silmeyi Onayla",
+    "settingsDeleteAccountConfirmContent": "Hesabınızı kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+    "settingsDeleteAccountButton": "Hesabı Sil",
+    "settingsDeletingAccountSnackbar": "Hesap Siliniyor...",
+    "settingsDeleteAccountSuccessSnackbar": "Hesap başarıyla silindi.",
+    "settingsDeleteAccountErrorSnackbar": "Hesap silinemedi: {error}",
+    "@settingsDeleteAccountErrorSnackbar": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "settingsDeleteAccountErrorDialogTitle": "Hesap Silme Hatası",
+    "settingsReauthRequiredDialogTitle": "Yeniden Kimlik Doğrulama Gerekli",
+    "settingsReauthPasswordPrompt": "Hesabınızı silmek için lütfen mevcut şifrenizi girin.",
+    "settingsReauthCurrentPasswordLabel": "Mevcut Şifre",
+    "settingsReauthPasswordValidationEmpty": "Lütfen mevcut şifrenizi girin",
+    "settingsReauthIncorrectPassword": "Yanlış şifre.",
+    "settingsReauthVerifyButton": "Doğrula",
+    "settingsChangePasswordDialogTitle": "Şifre Değiştir",
+    "settingsChangePasswordNewLabel": "Yeni Şifre",
+    "settingsChangePasswordNewValidationEmpty": "Lütfen yeni bir şifre girin",
+    "settingsChangePasswordConfirmLabel": "Yeni Şifreyi Onayla",
+    "settingsChangePasswordConfirmValidationEmpty": "Lütfen şifrenizi onaylayın",
+    "settingsChangePasswordConfirmValidationMismatch": "Şifreler eşleşmiyor",
+    "settingsChangePasswordUpdateButton": "Şifreyi Güncelle",
+    "settingsChangePasswordSuccessSnackbar": "Şifre başarıyla güncellendi!",
+    "settingsChangePasswordFailedDialogTitle": "Şifre Değiştirme Başarısız",
+    "settingsErrorDialogTitle": "Hata",
+    "settingsSessionExpiredError": "Kullanıcı oturumu sona erdi. Lütfen tekrar giriş yapın.",
+
+    "fiveDayForecastTitle": "{city} için 5 Günlük Hava Tahmini",
+    "@fiveDayForecastTitle": {
+        "placeholders": {
+            "city": {
+                "type": "String"
+            }
+        }
+    },
+    "fiveDayForecastLoadError": "5 günlük hava tahmini yüklenemedi: {error}",
+    "@fiveDayForecastLoadError": {
+        "placeholders": {
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "fiveDayForecastNoData": "Seçilen saatler ({times}) için hava tahmini verisi bulunamadı.",
+    "@fiveDayForecastNoData": {
+        "description": "Filtrelenen saatler için hava tahmini verisi olmadığında gösterilen mesaj.",
+        "placeholders": {
+            "times": {
+                "type": "String",
+                "example": "9, 12, 15, 18, 21"
+            }
+        }
+    },
+    "fiveDayForecastDayDividerFormat": "EEEE, d MMM",
+    "@fiveDayForecastDayDividerFormat": {
+        "description": "5 günlük hava tahminindeki günler arasındaki ayırıcı için tarih formatı (örn. Pazartesi, 20 May)."
+    },
+
+    "editProfileEmailManagedByGoogle": "E-posta Google tarafından yönetiliyor",
+    "editProfileCompletionIndicatorLabel": "Profil Tamamlama: %{percentage}",
+    "@editProfileCompletionIndicatorLabel": {
+        "placeholders": {
+            "percentage": {
+                "type": "String"
+            }
+        }
+    },
+
+    "calendarUserNotLoggedIn": "Kullanıcı giriş yapmamış.",
+    "calendarDataLoadError": "{sourceType} verileri yüklenemedi: {error}",
+    "@calendarDataLoadError": {
+        "placeholders": {
+            "sourceType": {
+                "type": "String",
+                "example": "dersler"
+            },
+            "error": {
+                "type": "String"
+            }
+        }
+    },
+    "taskStatusCompleted": "Tamamlandı",
+    "taskStatusPending": "Beklemede",
+
+    "weatherConditionClear": "Açık",
+    "weatherConditionClouds": "Bulutlu",
+    "weatherConditionRain": "Yağmurlu",
+    "weatherConditionDrizzle": "Çisenti",
+    "weatherConditionThunderstorm": "Gök Gürültülü Fırtına",
+    "weatherConditionSnow": "Karlı",
+    "weatherConditionMist": "Sisli",
+    "weatherConditionFog": "Yoğun Sis",
+    "weatherConditionUnknown": "Bilinmiyor",
+
+    "courseTimeLabel": "Saat",
+    "courseTimeHint": "SS:dd (örn: 14:30)",
+
+    "displayNameLabel": "Ad Soyad",
+    "displayNameValidationEmpty": "Lütfen adınızı ve soyadınızı girin",
+
+    "deleteCourseDialogTitle": "Dersi Sil",
+    "deleteCourseDialogContent": "Bu dersi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.",
+
+    "courseNotificationUpcomingTitle": "Yaklaşan Ders: {courseName}",
+    "@courseNotificationUpcomingTitle": {
+        "description": "Yaklaşan bir ders bildirimi için başlık",
+        "placeholders": {
+            "courseName": {
+                "type": "String",
+                "example": "Calculus 101"
+            }
+        }
+    },
+    "courseNotificationUpcomingBody": "{courseName} dersi {courseTime} saatinde {courseLocation} konumunda",
+    "@courseNotificationUpcomingBody": {
+        "description": "Yaklaşan bir ders bildirimi için içerik",
+        "placeholders": {
+            "courseName": {
+                "type": "String",
+                "example": "Calculus 101"
+            },
+            "courseTime": {
+                "type": "String",
+                "example": "10:00"
+            },
+            "courseLocation": {
+                "type": "String",
+                "example": "Oda 101"
+            }
+        }
+    }
+} 

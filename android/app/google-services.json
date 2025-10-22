@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "36106713451",
+    "project_id": "campusassistant-af665",
+    "storage_bucket": "campusassistant-af665.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36106713451:android:dc0cc94281f1aa0f7fb42e",
+        "android_client_info": {
+          "package_name": "com.example.campusassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36106713451-bjlho7bll6rs1f844im3dlcal0h3odtn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.campusassistant",
+            "certificate_hash": "e7d34559ca63498cb49ad82a5894474e2013a52e"
+          }
+        },
+        {
+          "client_id": "36106713451-90bkpr9n19n1pj67qb1erhgah9emqggd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjQ-O2iqzpGni4DtwqUHjjiI30a7sHaY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36106713451-90bkpr9n19n1pj67qb1erhgah9emqggd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
